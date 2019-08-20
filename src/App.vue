@@ -13,7 +13,7 @@
         <IconBase width="16" height="16"><IconRedo :disabled="!canRedo" /></IconBase>
         {{$t('common.redo')}}
       </button>
-      <button @click="copyHtml()" :disabled="items.length===0" type="button">
+      <button v-if="getConfig('allowHtmlCopy')" @click="copyHtml()" :disabled="items.length===0" type="button">
         <IconBase width="16" height="16"><IconClipboard :disabled="items.length===0" /></IconBase>
         {{$t('common.copyHtml')}}
       </button>

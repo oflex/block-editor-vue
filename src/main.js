@@ -97,7 +97,9 @@ export class BlockEditor {
         locale: 'en',                               // 翻訳用ロケール
         onLoad: null,                               // ロード時コールバック
         onUpdate: null,                             // 更新時コールバック
-        
+
+        allowHtmlCopy: true,                        // Show copy html to clipboard button
+
         // ------ アイテム固有の設定 ----------------------------------------
         // 段落の設定
         Paragraph: {
