@@ -22,7 +22,7 @@
     <transition name="fade" mode="out-in">
     <!-- アイテムが1件以上ある場合 -->
     <div v-if="items.length" key="some_items">
-      <Separator 
+      <Separator v-if="getConfig('allowActions')"
         @background-click="showAddMenu($event.target, 0, {x: $event.offsetX, y:5})"
         @mouseleave.native="hideAddMenuDelay()"
         @button-mouseenter="showAddMenu($event.target, 0)"
@@ -34,7 +34,7 @@
           class="BEV-item-anim"
           :key="'trans-'+item.id">
           <div class="BEV-component-wrap">
-            <component 
+            <component
               @item-action="doAction($event, item)"
               @item-dragstart="$store.commit('draggingItem',item); _itemDragstart(item, $event)"
               @item-drop="moveItemToColumn"
@@ -46,7 +46,7 @@
               :item="item"
               :is="item.name" />
           </div>
-          <Separator 
+          <Separator v-if="getConfig('allowActions')"
             @background-click="showAddMenu($event.target, index+1, {x: $event.offsetX, y:5})"
             @mouseleave.native="hideAddMenuDelay()"
             @button-mouseenter="showAddMenu($event.target, index+1)"
@@ -56,7 +56,7 @@
       </transition-group>
     </div>
     <!-- アイテムが1件もないとき -->
-    <div v-else key="no-items">
+    <div v-else-if="getConfig('allowActions')" key="no-items">
       <div
         @click.stop="showAddMenu({x: $event.pageX, y: $event.pageY}, 0)"
         class="BEV-no-items"

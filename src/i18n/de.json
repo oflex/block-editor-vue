@@ -1,0 +1,122 @@
+{
+  "common": {
+    "Table": "Tabelle",
+    "Column": "Spalte",
+    "Heading": "Überschrift",
+    "List": "Liste",
+    "Image": "Bild",
+    "Html": "HTML",
+    "Paragraph": "Absatz",
+    "cssClassName": "CSS Klasse",
+    "moveUpItem": "Nach oben",
+    "moveDownItem": "Nach unten",
+    "sortItem": "Sortieren",
+    "addItem": "Block hinzufügen",
+    "actionForBlock": "Aktion für Block",
+    "addBlock": "Block hinzufügen",
+    "undo": "Zurück",
+    "redo": "Vorwärts",
+    "selectClass": "Klasse auswählen",
+    "copyHtml": "HTML kopieren",
+    "copyHtmlAlert": {
+      "success": "HTML in die Zwischenablage kopiert",
+      "fail": "HTML in die Zwischenablage kopieren ist fehlgeschlagen"
+    },
+    "columnNestAlert": "Column item can't be nested",
+    "notAllowedItemInColumn": "This item is not allowed in column",
+    "replicateItem": "Duplizieren",
+    "deleteItem": "Löschen",
+    "apply": "Bestätigen",
+    "cancel": "Abbrechen",
+    "ok": "OK",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "setCssClass": "CSS Klasse setzen",
+    "imageCaptionPlaceholder": "Bildunterschrift",
+    "imageFromSrc": "Url bearbeiten",
+    "imageFromUploader": "Auswählen",
+    "InputImageUrl": "Bild URL hinzufügen",
+    "openInNewWindow": "Im neuen Fenster öffnen",
+    "images": "Keine Bilder | {n} Bild | {n} Bilder",
+    "link": "Link",
+    "url": "URL",
+    "unlink": "Link entfernen",
+    "bold": "Fett",
+    "brokenImage": "Bild kann nicht geladen werden",
+    "clickToAddItem": "Hier klicken um einen Block hinzuzufügen",
+    "test": "hoge"
+  },
+  "VisualText": {
+    "bold": "Fett",
+    "link": "Link setzen",
+    "unlink": "Link entfernen",
+    "remove": "Formartierung entfernen"
+  },
+  "Paragraph": {
+    "leftAlign": "Links ausrichten",
+    "rightAlign": "Rechts ausrichten",
+    "centerAlign": "Zentriert ausrichten",
+    "editImages": "Bild hinzufügen/ändern"
+  },
+  "Heading": {
+    "changeLevel": "Überschrift ändern"
+  },
+  "Column": {
+    "confirmMakeColumnSmaller": "Because a number less than the current number of columns was specified, the column will be delete. Spalten werden gelöscht, da die ",
+    "changeColumnNum": "Anzahl der Spalten ändern",
+    "columnNumber": "Spalte #"
+  },
+  "List": {
+    "orderedList": "Nummerierung",
+    "unorderedList": "Aufzählung",
+    "changeType": "Liste wechseln",
+    "reachedMaxRow": "Maximale Zeilenanzahl {n} Zeilen) erreicht. Es können keine weiteren Zeilen hinzugefügt werden!"
+  },
+  "Table": {
+    "changeColRow": "Anzahl von Spalten/Zeilen ändern",
+    "numberOfColumns": "Spalten",
+    "numberOfRows": "Zeilen",
+    "rowRangeError": "Zeilenanzahl kann nur im Bereich {min}-{max} angegeben werden!",
+    "colRangeError": "Spaltenanzahl kann nur im Bereich {min}-{max} angegeben werden!",
+    "rowEmptyError": "Anzahl der Zeilen angeben!",
+    "colEmptyError": "Anzahl der Spalten angeben!",
+    "decreaseConfirm": "Da die neue Zeilen- bzw. Spaltenanzahl kleiner ist als die Ursprüngliche gehen Daten verloren. Wollen Sie fortfahren?",
+    "reachedMaxRow": "The number of rows has reached the maximum value and can not be added any more.",
+    "reachedMaxCol": "The number of columns has reached the maximum value and can not be added any more.",
+    "reachedMinRow": "The number of rows has reached the minimum value and can not be deleted any more.",
+    "reachedMinCol": "The number of columns has reached the minimum value and can not be deleted any more.",
+    "resetColWidth": "Spaltenbreiten zurücksetzen",
+    "cannotMoveRow": "Verschieben von Zeilen mit verbundenen Zellen nicht möglich!",
+    "cannotMoveCol": "Verschieben von Spalten mit verbundenen Zellen nicht möglich!.",
+    "addRowAbove": "Neue Zeile oberhalb einfügen",
+    "addRowBelow": "Neue Zeile unterhalb einfügen",
+    "headerizeRow": "Als Überschrift definieren",
+    "deheaderizeRow": "Überschrift entfernen",
+    "clearRow": "Inhalte der Zeile löschen",
+    "delRow": "Zeile löschen",
+    "addColLeft": "Spalte links einfügen",
+    "addColRight": "Spalte rechts einfügen",
+    "headerizeCol": "Als Überschrift definieren",
+    "deheaderizeCol": "Überschrift entfernen",
+    "clearCol": "Inhalte der Spalte löschen",
+    "delCol": "Spalte löschen",
+    "cellMenu": "Zellen Menü",
+    "rowMenu": "Zeilen Menü",
+    "colMenu": "Spalten Menü",
+    "mergeCell": "Zellen verbinden",
+    "divideCell": "Zellen teilen",
+    "headerizeCell": "Zellen als Überschrift definieren",
+    "deheaderizeCell": "Überschrift entfernen",
+    "clearCell": "Inhalt der Zellen löschen"
+  },
+  "ImageEdit": {
+    "inputUrl": "URL hinzufügen",
+    "openFileBrowser": "Auswählen",
+    "captionPlaceholder": "Bildunterschrift",
+    "urlPlaceholder": "URL",
+    "cancelInputAlert": "Eingaben verwerfen. OK?"
+  },
+  "ImageList": {
+    "images": "Keine Bilder | {n} Bild | {n} Bilder"
+  }
+}

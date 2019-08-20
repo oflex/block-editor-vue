@@ -84,7 +84,7 @@
             </transition-group>
           </div>
           <!-- カラムにアイテムがない場合 -->
-          <div v-else
+          <div v-else-if="getConfig('allowActions')"
             :key="'column-'+item.id+'-'+col_index+'-noexists'"
             @click="showAddMenu($event, 0, col_index, 'surface-click')"
             @mouseleave="hideAddMenuDelay()"

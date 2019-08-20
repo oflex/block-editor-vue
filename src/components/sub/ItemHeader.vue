@@ -1,6 +1,6 @@
 <template>
   <transition name="fade">
-  <div 
+  <div v-if="getConfig('allowActions')"
     v-show="!$store.state.draggingItem"
     :class="{'BEV-header-active': active, 'BEV-header-hover': hover, 'BEV-compact': shouldHideSubLabel}"
     ref="nameWrap"

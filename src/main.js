@@ -99,6 +99,7 @@ export class BlockEditor {
         onUpdate: null,                             // 更新時コールバック
 
         allowHtmlCopy: true,                        // Show copy html to clipboard button
+        allowActions: true,                        // Allow to add new blocks
 
         // ------ アイテム固有の設定 ----------------------------------------
         // 段落の設定
