@@ -140,7 +140,11 @@ export default {
   created () {
     // IDがセットされていないデータを検証
     if (this.items && this.items.length) {
-      this.items.map(item => item.id=Util.generateID())
+      this.items.map(item => {
+        if (typeof item.id === 'undefined') {
+          item.id=Util.generateID()
+        }
+      })
     }
 
     // HTMLデータを内部データに変換する
